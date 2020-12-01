@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 //COMPILE USING THE FOLLOWING COMMAND :
-// gcc LinuxAdaptersEnumeration.c -o LinuxAdaptersEnumeration
+//gcc LinuxAdaptersEnumeration.c -o LinuxAdaptersEnumeration
 //k0rup710n
 
 int main(){
