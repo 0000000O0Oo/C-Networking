@@ -4,6 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//COMPILE USING THE FOLLOWING COMMAND :
+// gcc LinuxAdaptersEnumeration.c -o LinuxAdaptersEnumeration
+//k0rup710n
+
 int main(){
 	struct ifaddrs* addresses;
 
