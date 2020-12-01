@@ -11,6 +11,10 @@
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "iphlpapi.lib")
 
+//COMPILE ON WINDOWS USING VISUAL STUDIO C, BUILT-IN COMPILER OR YOU CAN USE MinGW :
+//gcc WindowsAdaptersEnumeration.c -o WindowsAdaptersEnumeration.exe -liphlpapi -lws2_32
+//k0rup710n
+
 
 int main() {
 	WSADATA d;
