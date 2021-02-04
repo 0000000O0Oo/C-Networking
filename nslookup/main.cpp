@@ -2,8 +2,8 @@
 
 int main(int argc, char *argv[]){
 #if defined(_WIN32)
-	if (argc < 3) {
-		printf("[+] Usage: File.exe [IPv4/Domain/IPv6] [Port]");
+	if (argc < 2) {
+		printf("[+] Usage: File.exe [IPv4/Domain/IPv6] [Port | Protocol (e.g : http)]\n(Port/Protocol can be ommited, if you give no port it will use port 80 by default)\n");
 		return 1;
 	}
 	WSADATA d;
