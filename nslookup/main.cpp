@@ -26,5 +26,6 @@ int main(int argc, char *argv[]){
 	char address_buffer[100];
 	char service_buffer[100];
 	getnameinfo(peer_address->ai_addr, peer_address->ai_addrlen, address_buffer, sizeof(address_buffer), service_buffer, sizeof(service_buffer), NI_NUMERICHOST);
-	printf("Address : %s\nProtocol/Service: %s\n", address_buffer, service_buffer);
+	printf("Address : %s\n", address_buffer);
+	printf("Protocol/Service : %s\n", service_buffer);
 }
