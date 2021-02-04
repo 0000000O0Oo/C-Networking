@@ -1,2 +1,4 @@
+NSLOOKUP LOOKALIKE [Works on Windows and Linux]
+
 Open using visual studio and compile it using their compiler or you can compile it using g++ :
 g++ main.cpp -lws2_32 -o nslookup
