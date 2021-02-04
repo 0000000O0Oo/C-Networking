@@ -1,3 +1,4 @@
+//Works on Windows and on Linux
 #include "Client.h"
 
 int main(int argc, char *argv[]){
